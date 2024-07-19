@@ -1,6 +1,12 @@
-# CDGON
-Code and Data for the paper "Physics-informed NeuralODE for Post-disaster Mobility Recovery", accepted by KDD2024 Research Track.
+# Physics-informed NeuralODE for Post-disaster Mobility Recovery (KDD2024 Research Track) 
+This repo contains codes and data for the following paper:
 
+_Jiahao Li, Huandong Wang, Xinlei Chen*_:
+Physics-informed NeuralODE for Post-disaster Mobility Recovery
+
+---------------------------
+some description about the codes and datas waiting to be added.
+---------------------------
 
 
 # Supplementary materials, including proof of convergence of the key formula $\frac{\mathrm{d} r_i(t)}{\mathrm{d} t}  = \alpha \frac{r_i(t)}{\overline{r_i}}[ \overline{r_i} - r_i(t)]$, performance evaluation results of STGCN and CDGON, and hyper-parameter experimental results:
