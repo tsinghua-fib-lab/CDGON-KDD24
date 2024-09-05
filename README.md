@@ -4,16 +4,28 @@ This repo contains codes and data for the following paper:
 _Jiahao Li, Huandong Wang, Xinlei Chen*_:
 Physics-informed NeuralODE for Post-disaster Mobility Recovery
 
----------------------------
-some description about the codes and datas waiting to be added.
----------------------------
+To run the training, testing and get the experimental result, just run
+```
+cd CDGON-KDD24
+python main.py
+```
 
 
-# Supplementary materials, including proof of convergence of the key formula $\frac{\mathrm{d} r_i(t)}{\mathrm{d} t}  = \alpha \frac{r_i(t)}{\overline{r_i}}[ \overline{r_i} - r_i(t)]$, performance evaluation results of STGCN and CDGON, and hyper-parameter experimental results:
+## About the data
+The mobility data from Aug 1st - Sep 10th, 2019 in FL, GA and SC are collected in 
+```
+./data
+```
+All data are organized into shapes like [T,N,N], representing T population mobility matrices, where diagonal elements represent intra-regional population flows and non-diagonal elements represent inter-regional population flows.
 
 
 
-## Theorem: In the formula $\frac{\mathrm{d} r_i(t)}{\mathrm{d} t}  = \alpha \frac{r_i(t)}{\overline{r_i}}[ \overline{r_i} - r_i(t)]$, $r_i(t)$ converges to $\overline{r_i}$ when $t \to \infty $ instead of oscillating perpetually around $\overline{r_i}$.
+
+## Supplementary materials, including proof of convergence of the key formula $\frac{\mathrm{d} r_i(t)}{\mathrm{d} t}  = \alpha \frac{r_i(t)}{\overline{r_i}}[ \overline{r_i} - r_i(t)]$, performance evaluation results of STGCN and CDGON, and hyper-parameter experimental results:
+
+
+
+### Theorem: In the formula $\frac{\mathrm{d} r_i(t)}{\mathrm{d} t}  = \alpha \frac{r_i(t)}{\overline{r_i}}[ \overline{r_i} - r_i(t)]$, $r_i(t)$ converges to $\overline{r_i}$ when $t \to \infty $ instead of oscillating perpetually around $\overline{r_i}$.
 
 **Proof of Theorem:**
 
@@ -43,7 +55,7 @@ which proves the theorem
 
 
 
-## Comparision of Performance Evaluation between STGCN and CDGON
+### Comparision of Performance Evaluation between STGCN and CDGON
 
 
 
@@ -108,7 +120,7 @@ which proves the theorem
 <table>
 
 
-## Hyper-parameter experimental results
+### Hyper-parameter experimental results
 
 **Hyper-parameter settings in CDGON**
 
@@ -118,7 +130,7 @@ which proves the theorem
 
 *Learning rate*: 0.003
 
-### Experiment results on different embedding dimensions, where the other parameter settings are same as original paper.
+#### Experiment results on different embedding dimensions, where the other parameter settings are same as original paper.
 <table>
     <tr>
         <td>Experiments Type</td>
@@ -365,7 +377,7 @@ which proves the theorem
     <tr>
 </table>
 
-### Experiment results on different $\lambda$, where the other parameter settings are same as original paper.
+#### Experiment results on different $\lambda$, where the other parameter settings are same as original paper.
 <table>
     <tr>
         <td>Experiments</td>
@@ -612,7 +624,7 @@ which proves the theorem
     <tr>
 </table>
 
-### Experiment results on different learning rates, where the other parameter settings are same as original paper.
+#### Experiment results on different learning rates, where the other parameter settings are same as original paper.
 
 <table>
     <tr>
