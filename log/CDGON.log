@@ -1,0 +1,14 @@
+2024-09-19 22:29:10.866 | INFO     | __main__:main:53 - {'num_gpu': 1, 'epochs': 200, 'his_length': 1, 'train_length': 3, 'test_length': 1, 'generalization_train_length': 4, 'generalization_test_length': 4, 'time_scale': 30, 'method': 'euler', 'lr': 0.003, 'embedding_dim': 48, 'lamda': 100, 'seed': 42, 'log': True}
+2024-09-19 22:30:50.488 | INFO     | __main__:main:53 - {'num_gpu': 1, 'epochs': 200, 'his_length': 1, 'train_length': 3, 'test_length': 1, 'generalization_train_length': 4, 'generalization_test_length': 4, 'time_scale': 30, 'method': 'euler', 'lr': 0.003, 'embedding_dim': 48, 'lamda': 100, 'seed': 42, 'log': True}
+2024-09-19 22:30:52.203 | INFO     | lib.Train_test:train_model:12 - time_steps_to_predict = torch.arange3/30
+2024-09-19 22:31:47.593 | INFO     | __main__:main:53 - {'num_gpu': 1, 'epochs': 200, 'his_length': 1, 'train_length': 3, 'test_length': 1, 'generalization_train_length': 4, 'generalization_test_length': 4, 'time_scale': 30, 'method': 'euler', 'lr': 0.003, 'embedding_dim': 48, 'lamda': 100, 'seed': 42, 'log': True}
+2024-09-19 22:31:49.819 | INFO     | lib.Train_test:train_model:12 - time_steps_to_predict = torch.arange3/30
+2024-09-19 22:32:09.113 | INFO     | __main__:main:53 - {'num_gpu': 1, 'epochs': 200, 'his_length': 1, 'train_length': 3, 'test_length': 1, 'generalization_train_length': 4, 'generalization_test_length': 4, 'time_scale': 30, 'method': 'euler', 'lr': 0.003, 'embedding_dim': 48, 'lamda': 100, 'seed': 42, 'log': True}
+2024-09-19 22:32:10.738 | INFO     | lib.Train_test:train_model:12 - time_steps_to_predict = torch.arange3/30
+2024-09-19 22:34:05.759 | INFO     | __main__:main:53 - {'num_gpu': 1, 'epochs': 200, 'his_length': 1, 'train_length': 3, 'test_length': 1, 'generalization_train_length': 4, 'generalization_test_length': 4, 'time_scale': 30, 'method': 'euler', 'lr': 0.003, 'embedding_dim': 48, 'lamda': 100, 'seed': 42, 'log': True}
+2024-09-19 22:34:06.448 | INFO     | lib.Train_test:train_model:12 - time_steps_to_predict = torch.arange3/30
+2024-09-19 22:34:49.978 | INFO     | lib.Train_test:train_model:12 - time_steps_to_predict = torch.arange3/30
+2024-09-19 22:36:02.734 | INFO     | lib.Train_test:train_model:12 - time_steps_to_predict = torch.arange3/30
+2024-09-19 22:36:23.348 | INFO     | lib.Train_test:train_model:12 - time_steps_to_predict = torch.arange4/30
+2024-09-19 22:37:13.187 | INFO     | lib.Train_test:train_model:12 - time_steps_to_predict = torch.arange4/30
+2024-09-19 22:38:40.249 | INFO     | lib.Train_test:train_model:12 - time_steps_to_predict = torch.arange4/30

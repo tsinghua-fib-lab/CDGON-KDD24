@@ -6,7 +6,7 @@ def preprocess_data(args, city, data_length, init_day):
     data without normalizing
     '''
     # load data
-    datapath = f'../data/{city}_mobility_data.pt'
+    datapath = f'./data/{city}_mobility_data.pt'
     mobility_data = torch.load(datapath)  # [T,N,N]
     node_num = mobility_data.shape[-1]
     mobility_data.to(torch.float32)
