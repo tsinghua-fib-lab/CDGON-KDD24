@@ -4,6 +4,9 @@ This repo contains codes and data for the following paper:
 _Jiahao Li, Huandong Wang, Xinlei Chen*_:
 Physics-informed NeuralODE for Post-disaster Mobility Recovery
 
+## Environment building and code runing
+The main environment requirements can be seen in requirements.txt
+
 To run the training, testing and get the experimental result, just run
 ```
 cd CDGON-KDD24
